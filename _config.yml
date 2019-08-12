@@ -20,11 +20,11 @@ projects:
   sort_by: pushed
   sort_by options:
       - pushed
-  #   - stars
+      - stars
   limit: 9
   exclude:
-    archived: false
-    forks: false
+    archived: true
+    forks: true
     projects:
     # - repo-name
 
@@ -50,3 +50,7 @@ topics:
   - name: Selenium
     web_url: https://github.com/topics/selenium
     image_url: https://camo.githubusercontent.com/c5ee2f8cb386115bc32259d6a58d863ad9dc2e31/687474703a2f2f7777772e73656c656e69756d68712e6f72672f696d616765732f6269672d6c6f676f2e706e67
+
+  - name: React
+    web_url: https://reactjs.org/
+    image_url: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
