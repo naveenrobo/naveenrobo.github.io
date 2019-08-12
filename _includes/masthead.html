@@ -35,6 +35,7 @@
     {{ user.location }}
   </div>
   <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+    {% octicon info height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:About %}
     <a href="/about" {% if site.style == 'dark' %}class="text-white" {% endif %}>About me</a>
   </div>
   {% endif %}
