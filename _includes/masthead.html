@@ -35,7 +35,7 @@
     {{ user.location }}
   </div>
   <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-    <a href="/about">About me</a>
+    <a href="/about" {% if site.style == 'dark' %}class="text-white" {% endif %}>About me</a>
   </div>
   {% endif %}
   {% if site.social_media %}
